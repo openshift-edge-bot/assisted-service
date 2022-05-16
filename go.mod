@@ -33,6 +33,7 @@ require (
 	github.com/google/go-cmp v0.5.5
 	github.com/google/renameio v0.1.0
 	github.com/google/uuid v1.3.0
+	github.com/googleapis/gnostic v0.5.5 // indirect
 	github.com/hashicorp/go-multierror v1.1.0
 	github.com/hashicorp/go-version v1.2.1
 	github.com/iancoleman/strcase v0.1.2
@@ -41,8 +42,8 @@ require (
 	github.com/mattn/go-sqlite3 v2.0.3+incompatible
 	github.com/metal3-io/baremetal-operator v0.0.0-20210317131627-82fd2d7f8daa
 	github.com/moby/moby v1.13.1
-	github.com/onsi/ginkgo v1.16.4
-	github.com/onsi/gomega v1.13.0
+	github.com/onsi/ginkgo v1.16.5
+	github.com/onsi/gomega v1.18.1
 	github.com/openshift-online/ocm-sdk-go v0.1.190
 	github.com/openshift/api v3.9.1-0.20191111211345-a27ff30ebf09+incompatible
 	github.com/openshift/client-go v0.0.0-20201020074620-f8fd44879f7c
@@ -56,7 +57,7 @@ require (
 	github.com/pelletier/go-toml v1.8.1
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.49.0
-	github.com/prometheus/client_golang v1.11.0
+	github.com/prometheus/client_golang v1.12.1
 	github.com/rs/cors v1.7.0
 	github.com/sirupsen/logrus v1.7.0
 	github.com/slok/go-http-metrics v0.8.0
@@ -68,20 +69,19 @@ require (
 	go.elastic.co/apm/module/apmlogrus v1.11.0
 	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c
-	golang.org/x/tools v0.1.5 // indirect
+	golang.org/x/sys v0.0.0-20220209214540-3681064d5158
 	gopkg.in/ini.v1 v1.51.0
 	gopkg.in/square/go-jose.v2 v2.3.1
 	gopkg.in/yaml.v2 v2.4.0
 	gorm.io/driver/postgres v1.2.1
 	gorm.io/gorm v1.22.3
-	k8s.io/api v0.21.1
-	k8s.io/apimachinery v0.21.1
+	k8s.io/api v0.24.0
+	k8s.io/apimachinery v0.24.0
 	k8s.io/client-go v12.0.0+incompatible
 	k8s.io/kube-aggregator v0.20.0
-	k8s.io/utils v0.0.0-20210527160623-6fdb442a123b
-	sigs.k8s.io/controller-runtime v0.9.0
-	sigs.k8s.io/yaml v1.2.0
+	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
+	sigs.k8s.io/controller-runtime v0.12.0
+	sigs.k8s.io/yaml v1.3.0
 )
 
 replace (
